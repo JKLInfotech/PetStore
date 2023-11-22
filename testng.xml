@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
+    
+    <listeners>
+        <listener class-name="Reporting.Setup"/>
+    </listeners>
+
     <test verbose="2" preserve-order="true" name="G:/My Drive/Sanjiv/IntelliJ/PetStore">
         <classes>
 
-            <class name="PetStore.Stores"/>
+            <class name="PetStore.StoresTest"/>
 
         </classes>
     </test>

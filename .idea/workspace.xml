@@ -4,19 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="097b1310-9aa6-4054-9741-19b1bf6c5946" name="Changes" comment="adfa">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Reporting/ExtentReportManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Reporting/Setup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RestAssured_Utility/RA_Utiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Utility/JsonUtiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PetStore/Base.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PetStore/Payload.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PetStore/StoreAPIs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PetStore/Stores.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Dev/StoreApiData.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Qa/StoreApiData.json" afterDir="false" />
+    <list default="true" id="097b1310-9aa6-4054-9741-19b1bf6c5946" name="Changes" comment="adfasdfaf">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Reporting/ExtentReportManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Reporting/ExtentReportManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Reporting/Setup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Reporting/Setup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RestAssured_Utility/RA_Utiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RestAssured_Utility/RA_Utiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PetStore/Stores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PetStore/StoresTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,35 +67,8 @@
       <recent name="G:\My Drive\Sanjiv\IntelliJ\PetStore" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Stores.createPetOrder4">
-    <configuration name="MavenRunner" type="MavenRunConfiguration" factoryName="Maven">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="cmdOptions" />
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list />
-            </option>
-            <option name="pomFileName" />
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="projectsCmdOptionValues">
-              <list />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method v="2" />
-    </configuration>
-    <configuration name="G:/My Drive/Sanjiv/IntelliJ/PetStore/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="MavenRunner" type="TestNG" temporary="true">
       <module name="PetStore" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
@@ -120,92 +87,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Stores" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="PetStore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="PetStore.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="PetStore" />
-      <option name="MAIN_CLASS_NAME" value="PetStore.Stores" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Stores.createPetOrder2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="PetStore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="PetStore.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="PetStore" />
-      <option name="MAIN_CLASS_NAME" value="PetStore.Stores" />
-      <option name="METHOD_NAME" value="createPetOrder2" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Stores.createPetOrder3" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="PetStore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="PetStore.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="PetStore" />
-      <option name="MAIN_CLASS_NAME" value="PetStore.Stores" />
-      <option name="METHOD_NAME" value="createPetOrder3" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Stores.createPetOrder4" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="PetStore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="PetStore.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="PetStore" />
-      <option name="MAIN_CLASS_NAME" value="PetStore.Stores" />
-      <option name="METHOD_NAME" value="createPetOrder4" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Maven.MavenRunner" />
-      <item itemvalue="TestNG.Stores.createPetOrder4" />
-      <item itemvalue="TestNG.G:/My Drive/Sanjiv/IntelliJ/PetStore/testng.xml" />
-      <item itemvalue="TestNG.Stores" />
-      <item itemvalue="TestNG.Stores.createPetOrder2" />
-      <item itemvalue="TestNG.Stores.createPetOrder3" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Stores.createPetOrder4" />
-        <item itemvalue="TestNG.G:/My Drive/Sanjiv/IntelliJ/PetStore/testng.xml" />
-        <item itemvalue="TestNG.Stores.createPetOrder3" />
-        <item itemvalue="TestNG.Stores.createPetOrder2" />
-        <item itemvalue="TestNG.Stores" />
+        <item itemvalue="TestNG.MavenRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +134,23 @@
       <option name="project" value="LOCAL" />
       <updated>1700559705308</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="adfasdfaf">
+      <option name="closed" value="true" />
+      <created>1700637333781</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700637333781</updated>
+    </task>
+    <task id="LOCAL-00006" summary="adfasdfaf">
+      <option name="closed" value="true" />
+      <created>1700637343026</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1700637343026</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -258,7 +158,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -266,7 +178,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adfa" />
-    <option name="LAST_COMMIT_MESSAGE" value="adfa" />
+    <MESSAGE value="adfasdfaf" />
+    <option name="LAST_COMMIT_MESSAGE" value="adfasdfaf" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

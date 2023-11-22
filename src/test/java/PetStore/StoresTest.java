@@ -2,17 +2,14 @@ package PetStore;
 
 import RestAssured_Utility.RA_Utiles;
 import Utility.JsonUtiles;
-import io.restassured.RestAssured;
-import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-import org.apache.log4j.Priority;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class Stores extends  StoreAPIs{
+public class StoresTest extends  StoreAPIs{
 
     //@Test
     public  void createPetOrder1(){
