@@ -6,11 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="097b1310-9aa6-4054-9741-19b1bf6c5946" name="Changes" comment="adfasdfaf">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Report/Report_2023-11-22 02.49.57.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Report/Report_2023-11-22 02.57.11.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Reporting/ExtentReportManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Reporting/ExtentReportManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Reporting/Setup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Reporting/Setup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/RestAssured_Utility/RA_Utiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RestAssured_Utility/RA_Utiles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PetStore/Stores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PetStore/StoresTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PetStore/Payload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PetStore/Payload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PetStore/StoreAPIs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PetStore/StoreAPIs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PetStore/StoresTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PetStore/StoresTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,21 +46,20 @@
     <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ToolWindowDebug.ShowToolbar&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/My Drive/Sanjiv/IntelliJ/PetStore/src/test/resources/Dev&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;G:/My Drive/Sanjiv/IntelliJ/PetStore/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor.code.editing&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ToolWindowDebug.ShowToolbar": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "G:/My Drive/Sanjiv/IntelliJ/PetStore/src/test/resources/Dev",
+    "onboarding.tips.debug.path": "G:/My Drive/Sanjiv/IntelliJ/PetStore/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.editor.code.editing"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\My Drive\Sanjiv\IntelliJ\PetStore\src\test\resources\Dev" />
@@ -67,7 +69,7 @@
       <recent name="G:\My Drive\Sanjiv\IntelliJ\PetStore" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.MavenRunner">
     <configuration name="MavenRunner" type="TestNG" temporary="true">
       <module name="PetStore" />
       <shortenClasspath name="NONE" />
@@ -87,9 +89,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StoresTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PetStore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PetStore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="PetStore" />
+      <option name="MAIN_CLASS_NAME" value="PetStore.StoresTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StoresTest.createPetOrder5" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PetStore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PetStore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="PetStore" />
+      <option name="MAIN_CLASS_NAME" value="PetStore.StoresTest" />
+      <option name="METHOD_NAME" value="createPetOrder5" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.StoresTest" />
+      <item itemvalue="TestNG.StoresTest.createPetOrder5" />
+      <item itemvalue="TestNG.MavenRunner" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.MavenRunner" />
+        <item itemvalue="TestNG.StoresTest.createPetOrder5" />
+        <item itemvalue="TestNG.StoresTest" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +194,23 @@
       <option name="project" value="LOCAL" />
       <updated>1700637343026</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="adfasdfaf">
+      <option name="closed" value="true" />
+      <created>1700645730387</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1700645730387</updated>
+    </task>
+    <task id="LOCAL-00008" summary="adfasdfaf">
+      <option name="closed" value="true" />
+      <created>1700645811545</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1700645811545</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

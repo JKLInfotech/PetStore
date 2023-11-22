@@ -24,27 +24,28 @@ public class RA_Utiles {
     public static void printRequestLogInReport(RequestSpecification requestSpecification){
 
         QueryableRequestSpecification queryableRequestSpecification = SpecificationQuerier.query(requestSpecification);
-        ExtentReportManager.logInfoDetails("Request EndPoint: "+queryableRequestSpecification.getBaseUri());
-        ExtentReportManager.logInfoDetails("Request Type: "+queryableRequestSpecification.getMethod());
-        ExtentReportManager.logInfoDetails("Request Header:");
+        ExtentReportManager.logInfoDetails("<div style='color: #000000;'>Request EndPoint: "+queryableRequestSpecification.getBaseUri()+"</div>");
+        ExtentReportManager.logInfoDetails("<div style='color: #000000;'>Request Type: "+queryableRequestSpecification.getMethod()+"</div>");
+        ExtentReportManager.logInfoDetails("<div style='color: #000000;'>Request Header: </div>");
         ExtentReportManager.logHeaders(queryableRequestSpecification.getHeaders().asList());
-        ExtentReportManager.logInfoDetails("Request Body:");
+        ExtentReportManager.logInfoDetails("<div style='color: #000000;'>Request Body: </div>");
         ExtentReportManager.logJson(queryableRequestSpecification.getBody());
 
     }
 
     public static void  printResponseLogInReport(Response response){
-        ExtentReportManager.logInfoDetails("Response Code: "+response.getStatusCode());
-        ExtentReportManager.logInfoDetails("Response Header:");
+        ExtentReportManager.logInfoDetails("<div style='color: #000000;'>Response Code: "+response.getStatusCode()+"</div>");
+        ExtentReportManager.logInfoDetails("<div style='color: #000000;'>Response Header: </div>");
         ExtentReportManager.logHeaders(response.getHeaders().asList());
-        ExtentReportManager.logInfoDetails("Response Body:");
+        ExtentReportManager.logInfoDetails("<div style='color: #000000;'>Response Body: </div>");
         ExtentReportManager.logJson(response.getBody().prettyPrint());
-        ExtentReportManager.logInfoDetails("Response Time: "+response.getTime());
+        ExtentReportManager.logInfoDetails("<div style='color: #000000;'>Response Time: "+response.getTime()+"</div>");
 
 
     }
 
 
+    //String payload
     public  static Response   performPost(String endPoint, String payload, Map<String,String> headers){
         RequestSpecification requestSpecification = getRequestSpecifications(endPoint,payload,headers);
         Response  response = requestSpecification.post();
@@ -55,6 +56,7 @@ public class RA_Utiles {
         return response;
     }
 
+    //Map payload
     public  static  Response performPost(String endPoint, Map<String, Object> payload, Map<String,String> headers){
         RequestSpecification requestSpecification = getRequestSpecifications(endPoint,payload,headers);
         Response  response = requestSpecification.post();
@@ -64,4 +66,5 @@ public class RA_Utiles {
 
         return  response;
     }
+
 }

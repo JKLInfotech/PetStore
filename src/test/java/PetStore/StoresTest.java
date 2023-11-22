@@ -44,10 +44,20 @@ public class StoresTest extends  StoreAPIs{
         Assert.assertEquals(response.statusCode(),200);
     }
 
-    @Test
+   // @Test
     public  void createPetOrder4(){
 
         Map<String, Object> payload = Payload.getCreatePetOrderPayloadFromMap("10","20","5","2023-11-21T09:51:58.683Z","placed",true);
+
+        Response response = createPetOrder(payload);
+
+        Assert.assertEquals(response.statusCode(),200);
+    }
+
+   @Test
+    public  void createPetOrder5(){
+
+        Map<String, Object> payload = Payload.getCreatePetOrderPayloadFromMap();
 
         Response response = createPetOrder(payload);
 
