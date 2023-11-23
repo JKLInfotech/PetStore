@@ -1,5 +1,6 @@
 package PetStore;
 
+import PetStore.Pojo.PojoStores;
 import RestAssured_Utility.RA_Utiles;
 import io.restassured.response.Response;
 
@@ -16,6 +17,15 @@ public class StoreAPIs {
 
         return  response;
     }
+
+//    public Response createPetOrder(PojoStores createPetOrderPayload){
+//
+//        String endPoint = (String)Base.dataFromJsonFile.get("post_createPetOrderEndPoint");
+//
+//        response = RA_Utiles.performPost(endPoint, createPetOrderPayload, new HashMap<String,String>());
+//
+//        return  response;
+//    }
 
 
 }

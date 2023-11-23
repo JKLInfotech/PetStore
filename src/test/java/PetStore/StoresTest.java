@@ -1,5 +1,6 @@
 package PetStore;
 
+import PetStore.Pojo.PojoStores;
 import RestAssured_Utility.RA_Utiles;
 import Utility.JsonUtiles;
 import io.restassured.response.Response;
@@ -54,7 +55,7 @@ public class StoresTest extends  StoreAPIs{
         Assert.assertEquals(response.statusCode(),200);
     }
 
-   @Test
+  //@Test
     public  void createPetOrder5(){
 
         Map<String, Object> payload = Payload.getCreatePetOrderPayloadFromMap();
@@ -63,5 +64,26 @@ public class StoresTest extends  StoreAPIs{
 
         Assert.assertEquals(response.statusCode(),200);
     }
+
+    @Test
+    public  void createPetOrder6(){
+
+        Map<String, Object> payload = Payload.getCreatePetOrderPayloadFromMapAndEnum();
+
+        Response response = createPetOrder(payload);
+
+        Assert.assertEquals(response.statusCode(),200);
+    }
+
+//    @Test
+//    public  void createPetOrder6(){
+//
+//        PojoStores payload = Payload.getCreatePetOrderPayloadFromPojo();
+//
+//        Response response = createPetOrder(payload);
+//
+//        Assert.assertEquals(response.statusCode(),200);
+//    }
+
 
 }

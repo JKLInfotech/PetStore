@@ -6,7 +6,7 @@
         <listener class-name="Reporting.Setup"/>
     </listeners>
 
-    <test verbose="2" preserve-order="true" name="G:/My Drive/Sanjiv/IntelliJ/PetStore">
+    <test verbose="2" preserve-order="true" name="PetStore">
         <classes>
 
             <class name="PetStore.StoresTest"/>

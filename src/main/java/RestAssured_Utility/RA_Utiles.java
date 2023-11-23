@@ -67,4 +67,14 @@ public class RA_Utiles {
         return  response;
     }
 
+    public  static  Response performPost(String endPoint, Object payloadFromPojo, Map<String,String> headers){
+        RequestSpecification requestSpecification = getRequestSpecifications(endPoint,payloadFromPojo,headers);
+        Response  response = requestSpecification.post();
+
+        printRequestLogInReport(requestSpecification);
+        printResponseLogInReport(response);
+
+        return  response;
+    }
+
 }

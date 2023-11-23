@@ -14,6 +14,11 @@ import java.util.List;
 
 public class ExtentReportManager {
 
+//    public static void main(String[] args){
+//        System.out.println("Hello");
+//    }
+
+
     public static ExtentReports extentReports;
     public static ExtentReports createInstance(String fileName,String reportName,String documentTitle){
         ExtentSparkReporter extentSparkReporter = new ExtentSparkReporter(fileName);

@@ -9,12 +9,11 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <maven.compiler.source>21</maven.compiler.source>
-        <maven.compiler.target>21</maven.compiler.target>
+        <maven_compiler_source>21</maven_compiler_source>
+        <maven_compiler_target>21</maven_compiler_target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
         <!-- Define properties for dependency versions -->
-        <junit>4.13.2</junit>
         <testng>7.8.0</testng>
         <extentreports.version>5.0.9</extentreports.version>
         <poi.version>5.2.3</poi.version>
@@ -35,12 +34,6 @@
     </properties>
 
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/junit/junit -->
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>${junit}</version>
-        </dependency>
 
         <dependency>
             <groupId>org.testng</groupId>
@@ -144,6 +137,7 @@
             <version>${lombok.version}</version>
         </dependency>
 
+
     </dependencies>
 
     <build>
@@ -152,12 +146,21 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.2.2</version>
+                <version>3.0.0-M5</version>
                 <configuration>
                     <suiteXmlFiles>
                         <suiteXmlFile>testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
-                    <forCount>0</forCount>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.0</version> <!-- Use the appropriate version -->
+                <configuration>
+                    <source>${maven_compiler_source}</source> <!-- Set the Java version you want to use -->
+                    <target>${maven_compiler_target}</target> <!-- Set the Java version you want to use -->
                 </configuration>
             </plugin>
 
