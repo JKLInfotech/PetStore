@@ -18,14 +18,14 @@ public class StoreAPIs {
         return  response;
     }
 
-//    public Response createPetOrder(PojoStores createPetOrderPayload){
-//
-//        String endPoint = (String)Base.dataFromJsonFile.get("post_createPetOrderEndPoint");
-//
-//        response = RA_Utiles.performPost(endPoint, createPetOrderPayload, new HashMap<String,String>());
-//
-//        return  response;
-//    }
+    public Response createPetOrder(PojoStores createPetOrderPayload){
+
+        String endPoint = (String)Base.dataFromJsonFile.get("post_createPetOrderEndPoint");
+
+        response = RA_Utiles.performPost(endPoint, createPetOrderPayload, new HashMap<String,String>());
+
+        return  response;
+    }
 
 
 }

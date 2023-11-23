@@ -9,8 +9,8 @@
     <test verbose="2" preserve-order="true" name="PetStore">
         <classes>
 
-            <class name="PetStore.StoresTest"/>
-
+          <!--  <class name="PetStore.StoresTest"/>-->
+            <class name="PetStore.StoresTest2"/>
         </classes>
     </test>
 </suite>

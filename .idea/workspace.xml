@@ -5,18 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="097b1310-9aa6-4054-9741-19b1bf6c5946" name="Changes" comment="adfasdfaf">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ObjectComparision/CompareObjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ObjectComparision/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PetStore/Pojo/PojoStores.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PetStore/Pojo/Status.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RestAssured_Utility/AssertionKeys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RestAssured_Utility/AssertionUtiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PetStore/Javers/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PetStore/Javers/JaversExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PetStore/Javers/JaversTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/Report_2023-11-22 06.05.33.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/Report_2023-11-23 09.59.28.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Reporting/ExtentReportManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Reporting/ExtentReportManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RestAssured_Utility/RA_Utiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RestAssured_Utility/RA_Utiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ObjectComparision/CompareObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ObjectComparision/CompareObjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ObjectComparision/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ObjectComparision/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PetStore/Payload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PetStore/Payload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PetStore/Pojo/PojoStores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PetStore/Pojo/PojoStores.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PetStore/StoreAPIs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PetStore/StoreAPIs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PetStore/StoresTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PetStore/StoresTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
@@ -129,12 +128,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="G:/My Drive/Sanjiv/IntelliJ/PetStore/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="JaversTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PetStore.Javers.JaversTest" />
       <module name="PetStore" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PetStore.Javers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -159,7 +161,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StoresTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="StoreTest2.createPetOrder1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PetStore" />
       <extension name="coverage">
         <pattern>
@@ -168,8 +170,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="PetStore" />
-      <option name="MAIN_CLASS_NAME" value="PetStore.StoresTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="PetStore.StoreTest2" />
+      <option name="METHOD_NAME" value="createPetOrder1" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -179,17 +182,17 @@
     <list>
       <item itemvalue="Application.CompareObjects" />
       <item itemvalue="Application.ExtentReportManager" />
-      <item itemvalue="TestNG.G:/My Drive/Sanjiv/IntelliJ/PetStore/testng.xml" />
-      <item itemvalue="TestNG.StoresTest (1)" />
+      <item itemvalue="Application.JaversTest" />
+      <item itemvalue="TestNG.StoreTest2.createPetOrder1" />
       <item itemvalue="TestNG.MavenRunner" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.MavenRunner" />
+        <item itemvalue="TestNG.StoreTest2.createPetOrder1" />
+        <item itemvalue="Application.JaversTest" />
         <item itemvalue="Application.CompareObjects" />
         <item itemvalue="Application.ExtentReportManager" />
-        <item itemvalue="TestNG.G:/My Drive/Sanjiv/IntelliJ/PetStore/testng.xml" />
-        <item itemvalue="TestNG.StoresTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -282,7 +285,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700714164829</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="adfasdfaf">
+      <option name="closed" value="true" />
+      <created>1700726315940</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1700726315940</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

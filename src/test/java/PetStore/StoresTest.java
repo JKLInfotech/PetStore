@@ -3,6 +3,8 @@ package PetStore;
 import PetStore.Pojo.PojoStores;
 import RestAssured_Utility.RA_Utiles;
 import Utility.JsonUtiles;
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -75,14 +77,30 @@ public class StoresTest extends  StoreAPIs{
         Assert.assertEquals(response.statusCode(),200);
     }
 
+    @Test
+    public  void createPetOrder7(){
+
+        PojoStores payload = Payload.getCreatePetOrderPayloadFromPojo();
+
+        Response response = createPetOrder(payload);
+
+        Assert.assertEquals(response.statusCode(),200);
+    }
+
 //    @Test
-//    public  void createPetOrder6(){
+//    public  void createPetOrder8() throws JsonProcessingException {
 //
-//        PojoStores payload = Payload.getCreatePetOrderPayloadFromPojo();
+//        PojoStores payload = new PojoStores();
 //
-//        Response response = createPetOrder(payload);
+//        Response response = createPetOrder((Map<String, Object>) payload);
 //
 //        Assert.assertEquals(response.statusCode(),200);
+//
+//       ObjectMapper objectMapper  = new ObjectMapper();
+//        Response createStoreReponse =  objectMapper.readValue(response.getBody().asString(), PojoStores.class);
+//
+//        Assert.assertEquals(createStoreReponse,payload);
+//
 //    }
 
 

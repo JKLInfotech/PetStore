@@ -78,19 +78,19 @@ public class Payload {
         return  payload;
     }
 
-//    public static PojoStores getCreatePetOrderPayloadFromPojo(){
-//        Faker faker = new Faker();
-//     return   PojoStores
-//                    .builder()
-//                    .id(faker.number().digits(5))
-//                    .petId(faker.number().digits(5))
-//                    .quantity(faker.number().digits(3))
-//                    .shipDate("2023-11-21T09:51:58.683Z")
-//                    .status("placed")
-//                    .complete("true")
-//                    .build();
-//
-//    }
+    public static PojoStores getCreatePetOrderPayloadFromPojo(){
+        Faker faker = new Faker();
+     return   PojoStores
+                    .builder()
+                    .id(faker.number().digits(5))
+                    .petId(faker.number().digits(5))
+                    .quantity(faker.number().digits(3))
+                    .shipDate("2023-11-21T09:51:58.683Z")
+                    .status("placed")
+                    .complete("true")
+                    .build();
+
+    }
 
 
 }
