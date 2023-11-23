@@ -12,5 +12,4 @@ public class AssertionKeys {
     private Object actualValue;
     private Object result;
 
-
 }

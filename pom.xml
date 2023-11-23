@@ -31,6 +31,8 @@
         <log4j-slf4j-impl.version>2.20.0</log4j-slf4j-impl.version>
         <poi-ooxml-schemas.version>4.1.2</poi-ooxml-schemas.version>
         <lombok.version>1.18.20</lombok.version>
+        <javers>7.3.6</javers>
+        <poiji>4.1.2</poiji>
 
     </properties>
 
@@ -142,7 +144,14 @@
         <dependency>
             <groupId>org.javers</groupId>
             <artifactId>javers-core</artifactId>
-            <version>7.3.6</version>
+            <version>${javers}</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.github.ozlerhakan/poiji -->
+        <dependency>
+            <groupId>com.github.ozlerhakan</groupId>
+            <artifactId>poiji</artifactId>
+            <version>${poiji}</version>
         </dependency>
 
 
