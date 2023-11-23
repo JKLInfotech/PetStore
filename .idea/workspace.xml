@@ -6,14 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="097b1310-9aa6-4054-9741-19b1bf6c5946" name="Changes" comment="adfasdfaf">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/Report_2023-11-22 02.49.57.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/Report_2023-11-22 02.57.11.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Reporting/ExtentReportManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Reporting/ExtentReportManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Reporting/Setup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Reporting/Setup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RestAssured_Utility/RA_Utiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RestAssured_Utility/RA_Utiles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PetStore/Payload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PetStore/Payload.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PetStore/StoreAPIs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PetStore/StoreAPIs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PetStore/StoresTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PetStore/StoresTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +43,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "ToolWindowDebug.ShowToolbar": "false",
+    "ToolWindowRun.ShowToolbar": "false",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "G:/My Drive/Sanjiv/IntelliJ/PetStore/src/test/resources/Dev",
     "onboarding.tips.debug.path": "G:/My Drive/Sanjiv/IntelliJ/PetStore/src/main/java/org/example/Main.java",
@@ -210,7 +203,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700645811545</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="adfasdfaf">
+      <option name="closed" value="true" />
+      <created>1700657685436</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1700657685436</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
